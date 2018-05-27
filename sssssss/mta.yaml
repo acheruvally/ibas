@@ -1,0 +1,12 @@
+ID: sssssss
+_schema-version: '2.1'
+version: 0.0.1
+
+modules:
+ - name: sssssss
+   type: nodejs
+   path: sssssss
+   provides:
+    - name: sssssss_api
+      properties:
+         url: ${default-url}
