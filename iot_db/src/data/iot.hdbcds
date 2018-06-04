@@ -1,0 +1,6 @@
+context iot {
+    entity RawMessage {
+        key ReceivedAt : UTCTimestamp;
+            Payload    : String(5000);
+    }
+};
